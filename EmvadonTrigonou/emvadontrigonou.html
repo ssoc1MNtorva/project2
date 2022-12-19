@@ -5,30 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src = "metrisi.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Μέτρηση Εμβαδόν Τριγώνου</title>
+    <title>Μετρητής Εμβαδού Τριγώνου</title>
 </head>
 
 <body>
     <div>
-        <h2>Μέτρηση του Εμβαδού ενός Τριγώνου</h2>
+        <h2>Μετρητής Εμβαδού Τριγώνου</h2>
         <img src="trigono.png">
-        <h3>Θεωρία</h3>
-        <p>Σε κάθε τρίγωνο μπορώ να φέρω μία κάθετη γραμμή από την κορυφή προς την απέναντι πλευρά του τριγώνου.
-            Αυτή η τεμνόμενη γραμμή ονομάζεται <b>ύψος</b> του τριγώνου και η πλευρά από την οποία τέμνεται η γραμμή
-            ονομάζεται <b>βάση</b>.
+        <h3><u>Θεωρία</u></h3>
+        <p>Το <i>ύψος</i> ενός τριγώνου είναι το κάθετο ευθύγραμμο τμήμα που ενώνει την <i>βάση</i> 
+            του τριγώνου με την απέναντι κορυφή. 
+            <br>
+            Για να βρώ το εμβαδόν ενός τριγώνου πολλαπλασιάζω το ύψος του τριγώνου επί την 
+            βάση του και διαιρώ δια το 2.
+            <br>
+            Ο υπολογισμός ενός τριγώνου γράφεται με αυτό το τρόπο: 
         </p>
-        <input  type="number" id="ypsos" value="ypsos"><label for="ypsos">Ύψος Τριγώνου</label></input><hr>
-        <input type="number" id="vasi" value="vasi"><label for="vasi">Βάση Τριγώνου</label></input><hr>
+        <p style="background-color:#3FC1C9; color: black; border: 2px solid #364F6B; 
+        display: inline-block; padding: 12px; border-radius: 12px;">
+            Εμβαδόν=(βάση x ύψος)/2</p>
+        <hr>
+        <input  type="number" id="ypsos" value="ypsos" placeholder="0"><label for="ypsos">Ύψος Τριγώνου</label></input><hr>
+        <input type="number" id="vasi" value="vasi" placeholder="0"><label for="vasi">Βάση Τριγώνου</label></input><hr>
         <button type="button" onclick="emvadonTrigonou()">Υπολογισμός</button>  
         <p id="emvadon" class="emvadon" value="emvadon"></p>
     </div>
     
   
 
-<script>/*οι μεταβλητές ώστε να μπορεί να εκτελεστεί η συνάρτηση στο αρχείο metrisi.js*/
-    let ypsos = document.getElementById("ypsos");
-    let vasi = document.getElementById("vasi");
-    let emvadon = document.getElementById("emvadon");
+<script>
+    
+/*οι μεταβλητές ώστε να μπορεί να εκτελεστεί η συνάρτηση στο αρχείο metrisi.js*/
+let ypsos = document.getElementById("ypsos");
+let vasi = document.getElementById("vasi");
+let emvadon = document.getElementById("emvadon");
+
 
 </script>
 
