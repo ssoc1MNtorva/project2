@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "metrisi.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Μέτρηση Εμβαδόν Τριγώνου</title>
+</head>
+
+<body>
+    <div>
+        <h2>Μέτρηση του Εμβαδού ενός Τριγώνου</h2>
+        <img src="trigono.png">
+        <h3>Θεωρία</h3>
+        <p>Σε κάθε τρίγωνο μπορώ να φέρω μία κάθετη γραμμή από την κορυφή προς την απέναντι πλευρά του τριγώνου.
+            Αυτή η τεμνόμενη γραμμή ονομάζεται <b>ύψος</b> του τριγώνου και η πλευρά από την οποία τέμνεται η γραμμή
+            ονομάζεται <b>βάση</b>.
+        </p>
+        <input  type="number" id="ypsos" value="ypsos"><label for="ypsos">Ύψος Τριγώνου</label></input><hr>
+        <input type="number" id="vasi" value="vasi"><label for="vasi">Βάση Τριγώνου</label></input><hr>
+        <button type="button" onclick="emvadonTrigonou()">Υπολογισμός</button>  
+        <p id="emvadon" class="emvadon" value="emvadon"></p>
+    </div>
+    
+  
+
+<script>/*οι μεταβλητές ώστε να μπορεί να εκτελεστεί η συνάρτηση στο αρχείο metrisi.js*/
+    let ypsos = document.getElementById("ypsos");
+    let vasi = document.getElementById("vasi");
+    let emvadon = document.getElementById("emvadon");
+
+</script>
+
+</body>
+
+</html>

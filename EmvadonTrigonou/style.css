@@ -1,0 +1,54 @@
+body{
+    background-color: #F5F5F5;
+    font-weight: bold;
+    display: block;
+}
+
+hr{
+    border: 1px solid #F5F5F5;
+}
+
+div {
+    width: 80%;
+    color: #364F6B;
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+img{
+    width: 75%;
+    height: 75%;
+}
+
+p:last-child {
+    display: block;
+    position: absolute;
+    background-color: #FC5185;
+    border-radius: 10px;
+    width: 20%;
+    height: 17px;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #364F6B;
+    right: 45%;
+}
+
+
+button{
+    background-color: #364F6B;
+    color: #F5F5F5;
+    padding: 10px;
+    border-radius: 90%;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #3FC1C9;
+    color: #364F6B;
+}
+
+button:active{
+    background-color: #46dae2;
+    color: #364F6B;
+}
