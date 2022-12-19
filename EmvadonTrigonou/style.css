@@ -34,6 +34,8 @@ p:last-child {
     border: 2px solid #364F6B;
     right: 45%;
     box-shadow: 0px 5px 5px 5px inset #db4572;
+    font-size:large;
+    font-weight: bold;
 }
 
 
